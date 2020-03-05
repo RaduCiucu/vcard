@@ -10,6 +10,7 @@ html,body{
 body {
   height: 100vh;
   margin: 0;
+  display: -ms-grid;
   display: grid;
   place-items: center;
   font: 400 16px/1.5 'Poppins', sans-serif;
@@ -114,7 +115,7 @@ body {
 
 .card .top .text .name-wrapper i {
   font-size: 1rem;
-  margin-left: .5rem;
+  margin-left: .6rem;
   color: #009abf;
 }
 
