@@ -41,7 +41,13 @@ body {
   color: #fffff9;
   border-radius: 1rem 1rem 0 0;
   background: url(me.webp) no-repeat center top;
-  background-size: cover;
+  transition: background-size 1.5s ease-in-out;
+  background-size: 110%;
+}
+.card .top:hover {
+background-size: 100%;
+
+
 }
 
 .card .top::after {
@@ -84,6 +90,8 @@ body {
 .card .top .social-buttons button:hover i {
   
   color: #fffff9;
+  transform: scale(1.5);
+
 }
 
 .card .top button.like {
@@ -119,6 +127,10 @@ body {
   color: #009abf;
 }
 
+.card .top .text .name-wrapper i:hover{
+  transform: scale(1.5);
+  color: #fffff9;
+}
 .card .top .text .name-wrapper .name {
   font-weight: 500;
   font-size: 1.4rem;
